@@ -1,0 +1,8 @@
+{
+  "appId": "com.irenfly.bloodchecker",
+  "appName": "bloodchecker",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

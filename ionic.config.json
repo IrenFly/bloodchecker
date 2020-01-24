@@ -1,5 +1,7 @@
 {
   "name": "bloodchecker",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

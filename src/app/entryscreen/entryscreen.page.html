@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      Add Entry
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="close()"><ion-icon slot="icon-only" name="close"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card style="width: 80%; margin: auto;">
+    <h2>Glucose</h2>
+    <ion-input type="text" placeholder=" in mg/dL" [(ngModel)]="entryGlucose"></ion-input>
+  </ion-card>
+  <ion-card style="width: 80%; margin: auto;">
+    <h2>Notes</h2>
+    <ion-input type="text" placeholder="Notes?" [(ngModel)]="entryNotes"></ion-input>
+  </ion-card>
+
+  <ion-button expand="full" (click)="saveEntry()" color="light">Save Entry</ion-button>
+
+</ion-content>
